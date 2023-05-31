@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>rollup</title>
+</head>
+<body>
+    <h1>rollup start</h1>
+    <script src="./build/bundle.js"></script>
+    <!-- script 는 GlobalContext 이므로 전역 스코프는 코드의 최상위 레벨에서 생성됨 스크립트 파일이 로드되면 해당 
+    스크립트의 내용이 전역 스코프에서 실행됨 전역 스코프는 HTML 문서의 다른 스크립트 태그에 포함된 코드와도 공유 됨으로
+    HTML 문서 내의 모든 스크립트는 전역 스코프에서 동작하며 해당 스크립트 파일 내에 선언된 
+    변수와 함수는 다른 스크립트 파일에서도 접근 가능합니다. -->
+    <script>
+    // UMD는 모듈 시스템의 하나로, 다양한 환경에서 모듈을 사용할 수 있도록 지원하는 형식
+    // UMD는 CommonJS(동기적), AMD(비동기적), 그리고 전역 변수로 모듈을 사용할 수 있는 세 가지 방식을 통합하여 제공
+        console.log(PomiseOption.rollupPromiseAll,"promise ALL")
+        console.log(PomiseOption.rollupPromiseAny,"promise Any")
+        console.log(PomiseOption.rollupSequential,"promise Sequential")
+        console.log(PomiseOption.rollupSleep,"Sleep")
+      </script>
+    </body>
+    </html>
+</body>
+</html>
