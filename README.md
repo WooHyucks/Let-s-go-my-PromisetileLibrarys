@@ -10,11 +10,33 @@
 ![rollup](https://img.shields.io/badge/rollup-EC4A3F?&logo=rollup.js&logoColor=white)
 
 ### Function Introduction
-**Promise Method**
-- [Promise All](https://github.com/WooHyucks/Let-s-go-my-PromisetileLibrarys/blob/PromisetileLibrarys/PromiseOption/src/Promise.All.js)
-- [Promise Any](https://github.com/WooHyucks/Let-s-go-my-PromisetileLibrarys/blob/PromisetileLibrarys/PromiseOption/src/Promise.Any.js)
-- [Promise Sequential](https://github.com/WooHyucks/Let-s-go-my-PromisetileLibrarys/blob/PromisetileLibrarys/PromiseOption/src/Promise.sequential.js)
-- [Sleep](https://github.com/WooHyucks/Let-s-go-my-PromisetileLibrarys/blob/PromisetileLibrarys/PromiseOption/src/Sleep.js)
+
+[Promise All](https://github.com/WooHyucks/Let-s-go-my-PromisetileLibrarys/blob/PromisetileLibrarys/PromiseOption/src/Promise.All.js) 
+---
+> The Promise.all() method returns a promise that will be restored after all promises given to the iterable object have fulfilled, or when the promise is delayed in voltage. If one of the given promises is waived, it uses the reason of the first rejected promise to consume itself as well.
+
+```
+const promise1 = Promise.resolve(3);
+const promise2 = 42;
+const promise3 = new Promise((resolve, reject) => {
+  setTimeout(resolve, 100, 'foo');
+});
+
+Promise.all([promise1, promise2, promise3]).then((values) => {
+  console.log(values);
+});
+// Expected output: Array [3, 42, "foo"]
+``` 
+
+
+
+
+[Promise Any](https://github.com/WooHyucks/Let-s-go-my-PromisetileLibrarys/blob/PromisetileLibrarys/PromiseOption/src/Promise.Any.js)
+---
+[Promise Sequential](https://github.com/WooHyucks/Let-s-go-my-PromisetileLibrarys/blob/PromisetileLibrarys/PromiseOption/src/Promise.sequential.js)
+---
+[Sleep](https://github.com/WooHyucks/Let-s-go-my-PromisetileLibrarys/blob/PromisetileLibrarys/PromiseOption/src/Sleep.js)
+---
 
 
 
