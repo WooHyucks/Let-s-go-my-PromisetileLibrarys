@@ -11,6 +11,8 @@
 
 ### Function Introduction
 
+_If you go to the link, you can see the base for each promise method I made! 🙏_
+
 [Promise All](https://github.com/WooHyucks/Let-s-go-my-PromisetileLibrarys/blob/PromisetileLibrarys/PromiseOption/src/Promise.All.js) 
 ---
 > The Promise.all() method returns a promise that will be restored after all promises given to the iterable object have fulfilled, or when the promise is delayed in voltage. If one of the given promises is waived, it uses the reason of the first rejected promise to consume itself as well.
