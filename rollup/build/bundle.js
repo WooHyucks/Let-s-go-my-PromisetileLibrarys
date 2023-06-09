@@ -5,7 +5,7 @@
 })(this, (function () { 'use strict';
 
   const fulfilledFirst$1 = new Promise((res, rej) => {
-rst");
+      setTimeout(res, 500, "fulfilledFirst");
   });
   const fulfilledSecond$1 = new Promise((res, rej) => {
       setTimeout(res, 300, "fulfilledSecond");

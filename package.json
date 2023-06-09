@@ -1,0 +1,16 @@
+{
+  "name": "promiseutilelibrary",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build-webpack": "cd webpack && npm run build",
+    "build-webpack-nodemon": "cd webpack && nodemon --exec \"npm run build\" --watch",
+    "build-rollup": "cd rollup && npm run build",
+    "build-rollup-nodemon": "cd rollup && nodemon --exec \"npm run build\" --watch",
+    "test-mocha": "cd mocha && npm test",
+    "test-mocha-nodemon": "cd mocha && nodemon --exec \"npm run test\" --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
