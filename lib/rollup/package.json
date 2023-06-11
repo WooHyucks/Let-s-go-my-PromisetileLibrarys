@@ -1,7 +1,7 @@
 {
   "name": "project-rollup",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "build/bundle.js",
   "type": "module",
   "scripts": {
     "build": "rollup -c",

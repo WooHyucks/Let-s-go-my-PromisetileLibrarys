@@ -9,6 +9,7 @@
   },
   "name": "project-webpack",
   "version": "1.0.0",
+  "main": "dist/main.js",
   "scripts": {
     "build": "webpack --config webpack.config.js",
     "dev" : "nodemon --exec \"npm run build\" --watch"
